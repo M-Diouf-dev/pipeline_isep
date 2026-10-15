@@ -24,3 +24,7 @@ jobs:
 
       - name: Lister les fichier apres
         run: ls -la
+
+      - name: Lire un fichier
+        run: cat fichier-inexistant.txt
+
